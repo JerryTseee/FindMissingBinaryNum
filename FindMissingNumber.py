@@ -1,7 +1,7 @@
 def find_missing_integer(A, binaryNum = ""):
     #check that if we find the missing binary number
     if (binaryNum not in A) and (len(binaryNum) == len(A[0])):
-        print("missing: "+binaryNum)
+        print("missing: "+ binaryNum)
     else:
         #we make different combination
         if len(binaryNum) < len(A[0]):
